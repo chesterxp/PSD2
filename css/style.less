@@ -9,7 +9,6 @@ body {
 			}
 
 }
-
 //--------------------------------Header----------------------------------------//
 #header {
 	background: url(/image/Rectangle%202.png) no-repeat center center;
@@ -78,11 +77,11 @@ body {
 					color:black;
 					display: inline-block;
 					margin: 1%;
-					width: 30%;
+					width: 31%;
 					background: white;
 					border-radius: 5px;
 					.text{
-						
+						width: 80%;
 						display: inline-block;
 						float: left;
 						padding: 12px;
@@ -92,7 +91,10 @@ body {
 						}
 						input{
 							border:none;
-							width: 60%;
+							width: 90%;
+							&:active{
+								border:none;
+							}
 							
 						}
 					}
@@ -100,6 +102,7 @@ body {
 						display: inline-block;
 						float:right;
 						padding: 12px;
+						width: 15%;
 						a{
 							text-decoration: none;
 							color: black;
@@ -111,14 +114,19 @@ body {
 					}
 				}
 				.pole2{
-					width:auto;
 					background: #28c6c4;
-					
+					display: inline-block;
+					border-radius: 5px;
+					padding: 11px;
+					position: relative;
+					top:-30px;
+					&:hover{
+						background: #16a4a2;
+					}
 					span{
 						color:white!important;
 					}
 				}
-
 			}			
 		}
 	}
@@ -138,7 +146,6 @@ body {
 		}
 	}
 }
-
 //-------------------------------//Header---------------------------------------//
 //--------------------------------Logo----------------------------------------//
 #logo {
@@ -179,7 +186,6 @@ body {
 		}
 	}
 }
-
 //-------------------------------//Logo---------------------------------------//
 //--------------------------------Features----------------------------------------//
 #features {
@@ -234,7 +240,6 @@ body {
 	}
 	}
 }
-
 //-------------------------------//Features---------------------------------------//
 //--------------------------------Guidelines---------------------------------------- //
 #guidelines {
@@ -293,7 +298,6 @@ body {
 		}
 	}
 }
-
 //-------------------------------//Guidelines---------------------------------------//
 //--------------------------------Picture----------------------------------------//
 #picture {
@@ -316,7 +320,6 @@ body {
 		}
 	}
 }
-
 //-------------------------------//Picture---------------------------------------//
 //--------------------------------Laptop----------------------------------------//
 #laptop {
@@ -342,8 +345,6 @@ body {
 			
 		}
 	}
-
-
 //-------------------------------//Laptop---------------------------------------//
 //--------------------------------Footer----------------------------------------//
 #footer {
@@ -399,17 +400,14 @@ body {
 		}
 	}
 }
-
 //-------------------------------//Footer---------------------------------------//
 //--------------------------------Others----------------------------------------//
 .hidee{
 	opacity: 0;
 }
-
 .showw{
 	opacity: 1;
 }
-
 @media (max-width:768px) {
 body {
 		font-size: 14px;
@@ -417,8 +415,7 @@ body {
 			font-size: 1.5em;
 		}
 	}
-	#header{
-		
+#header{	
 		.container{
 			.row{
 				.menu{
@@ -436,8 +433,7 @@ body {
 								padding: 10px;
 								a{
 									font-size: 10px;
-								}
-								
+								}	
 							}
 						}
 					}
@@ -452,17 +448,20 @@ body {
 					}
 				}
 				.newsletter{
-					
 					.pole{
 						display: block;
-						width: 70%;
-						margin: 3% auto;
+						width: 80%;
+						margin: 2% 10%;
 					}
 					.pole2{
-						display: block;
-						width: 70%;
-						margin: 3% auto;
-						
+					background: #28c6c4;
+					display: inline-block;
+					border-radius: 5px;
+					padding: 11px;
+					text-align: center;
+						position: relative;
+						top:0px;
+						left:46%;
 					}
 				}
 			}
@@ -521,9 +520,19 @@ body {
 body{
 		font-size: 14px;
 	}
-	#header{
+#header{
 		background: url(/image/Layer%202.png) no-repeat center center;
 		background-size: cover;
+		.container{
+			.row{
+				.newsletter{
+					.pole2{
+					position: relative;
+					top:-26px;
+					}
+				}
+			}
+		}
 	}
 #laptop{
 		.container{
@@ -533,6 +542,7 @@ body{
 					top: -350px;
 					right:-30px;
 				}
+				
 			}
 	}
 }
@@ -543,8 +553,3 @@ body{
 	}
 }
 //-------------------------------//Others---------------------------------------//
-
-
-
-
-

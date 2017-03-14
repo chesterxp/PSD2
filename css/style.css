@@ -69,11 +69,12 @@ body h1 {
   color: black;
   display: inline-block;
   margin: 1%;
-  width: 30%;
+  width: 31%;
   background: white;
   border-radius: 5px;
 }
 #header .container .row .newsletter .pole .text {
+  width: 80%;
   display: inline-block;
   float: left;
   padding: 12px;
@@ -84,12 +85,16 @@ body h1 {
 }
 #header .container .row .newsletter .pole .text input {
   border: none;
-  width: 60%;
+  width: 90%;
+}
+#header .container .row .newsletter .pole .text input:active {
+  border: none;
 }
 #header .container .row .newsletter .pole .link {
   display: inline-block;
   float: right;
   padding: 12px;
+  width: 15%;
 }
 #header .container .row .newsletter .pole .link a {
   text-decoration: none;
@@ -99,8 +104,15 @@ body h1 {
   color: #28c6c4;
 }
 #header .container .row .newsletter .pole2 {
-  width: auto;
   background: #28c6c4;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 11px;
+  position: relative;
+  top: -30px;
+}
+#header .container .row .newsletter .pole2:hover {
+  background: #16a4a2;
 }
 #header .container .row .newsletter .pole2 span {
   color: white!important;
@@ -375,13 +387,18 @@ body h1 {
   }
   #header .container .row .newsletter .pole {
     display: block;
-    width: 70%;
-    margin: 3% auto;
+    width: 80%;
+    margin: 2% 10%;
   }
   #header .container .row .newsletter .pole2 {
-    display: block;
-    width: 70%;
-    margin: 3% auto;
+    background: #28c6c4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 11px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 46%;
   }
   #features .container .row .main {
     width: 90%;
@@ -412,6 +429,10 @@ body h1 {
   #header {
     background: url(/image/Layer%202.png) no-repeat center center;
     background-size: cover;
+  }
+  #header .container .row .newsletter .pole2 {
+    position: relative;
+    top: -26px;
   }
   #laptop .container .row img {
     position: absolute;
