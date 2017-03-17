@@ -135,24 +135,24 @@ body h1 {
 #logo {
   background: url(/image/iPhone%206.png) no-repeat center bottom;
 }
-#logo .conatiner .row {
+#logo .container .row {
   text-align: center;
 }
-#logo .conatiner .row h2 {
+#logo .container .row h2 {
   text-transform: uppercase;
   padding: 140px 0 30px 0;
   font-weight: bold;
 }
-#logo .conatiner .row p {
+#logo .container .row p {
   color: #424446;
   width: 60%;
   margin: 0 auto;
   padding-bottom: 180px;
 }
-#logo .conatiner .down {
+#logo .container .down {
   text-align: center;
 }
-#logo .conatiner .down .downButton {
+#logo .container .down .downButton {
   display: inline-block;
   background: #28c8c6;
   padding: 40px;
@@ -161,7 +161,7 @@ body h1 {
   position: relative;
   bottom: -50px;
 }
-#logo .conatiner .down .downButton img {
+#logo .container .down .downButton img {
   width: 35px;
   color: white;
 }
@@ -289,7 +289,7 @@ body h1 {
   width: 80%;
   position: absolute;
   right: 0px;
-  top: -500px;
+  top: -470px;
 }
 #laptop .container .row .goUp {
   padding: 20% 0;
@@ -436,8 +436,8 @@ body h1 {
   }
   #laptop .container .row img {
     position: absolute;
-    top: -350px;
-    right: -30px;
+    top: -300px;
+    right: -10px;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
